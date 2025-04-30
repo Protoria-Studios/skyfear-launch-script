@@ -1,0 +1,19 @@
+# Skyfear Launch Script, written by @telekrex:
+# The goal of this software is to accommodate the
+# unpredictable state of any machine attempting to
+# run Skyfear, outside of the Unreal Engine environment,
+# due to limitations within the Unreal Engine environment.
+# And for the future, this script allows a flexibile solution
+# to any further pre-requisite and hardware issues that arise.
+
+# Because this utility requires elevated priveledges and may
+# interact with sensitive operating system information, I
+# am publically sharing the source code so that
+# 1) anyone can verify its function and trustworthyness,
+# 2) better programmers than me can suggest improvements.
+# The rest of the game, included in SKYFEAR.exe is made up
+# of a source-built Unreal Engine 4.21, and contains no
+# third party or custom software like this utility.
+
+# Please submit any found issues or vulnerabilities to
+# `protoriastudios@gmail.com`, or hit me up on Discord.
