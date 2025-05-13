@@ -21,7 +21,7 @@
 # `protoriastudios@gmail.com`, or hit me up on Discord.
 
 
-print('\n\n  Skyfear Launch Script')
+print('\n\n  Skyfear Launcher')
 print('  Source code: https://github.com/Protoria-Studios/skyfear-launch-script\n\n')
 
 

@@ -1,1 +1,1 @@
-python -m PyInstaller --onefile launcher.py -n Launcher
+python -m PyInstaller --clean --noupx --noconfirm --onedir -n SkyfearLauncher LauncherSpec.spec --version-file=version_info.txt
