@@ -1,1 +1,1 @@
-python -m PyInstaller launcher-refactor.py --clean --noupx --noconfirm --onedir -n SkyfearLauncher --version-file=version_info.txt
+python -m PyInstaller launcher.py --clean --noupx --noconfirm --onedir -n SkyfearLauncher --version-file=version_info.txt
