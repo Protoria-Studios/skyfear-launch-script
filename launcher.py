@@ -16,19 +16,19 @@ def launch_game(path):
         print("Error launching game:", e)
 
 def main():
-    print("Skyfear Launcher\n")
-    print("Source code: https://github.com/Protoria-Studios/skyfear-launch-script\n")
+    print("/// Skyfear Launch Script")
+    print("/// Source code: https://github.com/Protoria-Studios/skyfear-launch-script")
     game_path = os.path.join(os.getcwd(), GAME_EXE)
 
     if not game_exists(game_path):
-        print("Game not found.")
+        print("Game client not found.")
         return
 
     if os.environ.get(VAR_NAME) != VAR_VALUE:
         print(f"Setting env var {VAR_NAME}...")
         os.environ[VAR_NAME] = VAR_VALUE
 
-    print("Launching game...")
+    print("Starting game client...")
     launch_game(game_path)
 
 if __name__ == "__main__":
