@@ -17,6 +17,7 @@ def launch_game(path):
 
 def main():
     print("Skyfear Launcher\n")
+    print("Source code: https://github.com/Protoria-Studios/skyfear-launch-script\n")
     game_path = os.path.join(os.getcwd(), GAME_EXE)
 
     if not game_exists(game_path):
