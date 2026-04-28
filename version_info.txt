@@ -12,13 +12,13 @@ VSVersionInfo(
   kids=[
     StringFileInfo([
       StringTable('040904b0', [
-        StringStruct('CompanyName', 'YourName'),
-        StringStruct('FileDescription', 'Skyfear Launcher'),
+        StringStruct('CompanyName', 'Protoria Studios LLC'),
+        StringStruct('FileDescription', 'Skyfear Compatibility Launcher'),
         StringStruct('FileVersion', '1.0.0.0'),
-        StringStruct('InternalName', 'SkyfearLauncher'),
+        StringStruct('InternalName', 'Skyfear Compatibility Launcher'),
         StringStruct('OriginalFilename', 'SkyfearLauncher.exe'),
-        StringStruct('ProductName', 'Skyfear'),
-        StringStruct('ProductVersion', '1.0.0.0'),
+        StringStruct('ProductName', 'Skyfear Compatibility Launcher'),
+        StringStruct('ProductVersion', '1.0.0.1'),
       ])
     ]),
     VarFileInfo([VarStruct('Translation', [1033, 1200])])
